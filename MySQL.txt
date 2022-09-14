@@ -1,0 +1,11 @@
+create database votacao;
+
+create table votadores (
+id int not null auto_increment,
+nome varchar(30) not null,
+cpf varchar(11) not null,
+idade int not null,
+RN int not null,
+data_registro timestamp not null,
+primary key(id)
+);
